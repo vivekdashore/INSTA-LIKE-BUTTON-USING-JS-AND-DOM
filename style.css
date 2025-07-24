@@ -16,12 +16,18 @@ body{
   justify-content: center;  
 }
 #container{
-    height: 400px;
+    height: 500px;
     width: 350px;
     border-radius: 10px;
     background-color: white;
     position: relative;
     overflow: hidden;
+}
+#container h1{
+    text-align: center;
+   /* background-color: #20B2AA; */
+   margin: 10px;
+   color: red;
 }
 #container img{
     height: 100%;
@@ -38,4 +44,5 @@ body{
     transform: translate(-50%,-50%) scale(0);
     opacity: 0;
     transition: transform ease 0.4s;
+    color: rgb(245, 95, 95);
 }
